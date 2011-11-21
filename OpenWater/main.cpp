@@ -87,7 +87,6 @@ void addPixelShader(osg::Node* node)
 
 osg::Node* createMirroredScene(osg::Node* model)
 {
-
     // calculate where to place the mirror according to the
     // loaded models bounding sphere.
     const osg::BoundingSphere& bs = model->getBound();
