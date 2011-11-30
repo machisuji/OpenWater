@@ -23,5 +23,8 @@
     <None Include="red.frag">
       <Filter>Quelldateien</Filter>
     </None>
+    <None Include="waves.vert">
+      <Filter>Quelldateien</Filter>
+    </None>
   </ItemGroup>
 </Project>

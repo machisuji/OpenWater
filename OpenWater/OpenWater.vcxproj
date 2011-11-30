@@ -72,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="red.frag" />
+    <None Include="waves.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
