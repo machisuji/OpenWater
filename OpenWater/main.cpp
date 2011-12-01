@@ -307,9 +307,17 @@ int main( int argc, char **argv )
 	cubePos->addChild(createCube());
 	cubePos->setPosition(osg::Vec3(5, 10, -5));
 
+	//osg::Node* skyModel = osgDB::readNodeFile("skydome.osgt");
+	//osg::PositionAttitudeTransform* skyPos = new osg::PositionAttitudeTransform();
+	//skyPos->addChild(skyModel);
+	//skyPos->setPosition(osg::Vec3(0, 0, 10));
+	//skyPos->setAttitude(osg::Quat(70, osg::Vec3(0, 0, 1)));
+	//skyPos->setScale(osg::Vec3d(0.2, 0.2, 0.2));
+
 	scene->addChild(homePos);
 	scene->addChild(waterPos);
 	scene->addChild(cubePos);
+	//scene->addChild(skyPos);
 	scene->addChild(createCoordinateSystem());
 
     // set the scene to render
